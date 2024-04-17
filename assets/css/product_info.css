@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FED7BA;
+}
+
+/* Navbar styles css */
+.navbar {
+    background-color: #FED7BA;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: space-between;
+    height: 12vh;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+    top: 0;
+}
+
+/* Navbar links */
+.nav-links {
+    width: 32vw;
+}
+
+.nav-links a {
+    color: #000;
+    float: left;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.nav-links a:hover {
+    color: #8B0000;
+    transition: 0.5s;
+}
+
+/* Navbar logo */
+.navbar img {
+    height: 60px;
+    width: auto;
+}
+
+.nav-buttons {
+    width: 32vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Navbar search-box */
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    height: 35px;
+    width: 285px;
+    padding: 0 35px 0 10px;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background: none;
+}
+
+.search-box button {
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background: none;
+    position: absolute;
+    transform: translate(-30px, 6px);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.search-box button:hover {
+    color: #8B0000;
+    transition: 0.5s;
+}
+
+/* Navbar right-buttons */
+.icon-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.icon-buttons a {
+    color: #000;
+    font-size: 25px;
+    margin-left: 25px;
+    transition: 0.5s;
+}
+
+.icon-buttons a:hover {
+    color: #8B0000;
+    transition: 0.5s;
+}
+
+/* Product box */
+.product-info-container {
+    background-color: yellow;
+    margin-top: 12vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.product-info-left-box {
+    background-color: aqua;
+    padding: 20px;
+}
+
+.product-info-img {
+    position: relative;
+}
+
+.product-info-img img {
+    width: auto;
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px #000;
+}
+
+.product-info-img a {
+    position: absolute;
+    z-index: 1;
+    transform: translate(-40px, 5px);
+    font-size: 27px;
+    color: #000;
+    text-decoration: none;
+}
+
+.product-info-btn {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-info-btn button {
+    color: #fff;
+    background-color: #8B0000;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.product-info-tag {
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    width: 293px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.product-info-right-box {
+    background-color: red;
+    padding: 20px;
+}
